@@ -32,7 +32,11 @@ export const album = {
       icon: "spotify",
       url: "https://open.spotify.com/album/2UB0BSujgOr6G3lcNV0Fhe",
     },
-    { name: "Apple Music", icon: "applemusic", url: null },
+    {
+      name: "Apple Music",
+      icon: "applemusic",
+      url: "https://music.apple.com/fr/album/chut/6790554865",
+    },
     {
       name: "Deezer",
       icon: "deezer",
