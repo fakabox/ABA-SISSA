@@ -176,8 +176,7 @@ export function AlbumPage() {
       <section className="tracks-section" id="titres" aria-labelledby="tracks-title">
         <div className="section-heading">
           <p className="eyebrow">Tracklist</p>
-          <h2 id="tracks-title">Découvrez les titres de l’album</h2>
-          <p>Les extraits seront activés dès que les clips audio seront prêts.</p>
+          <h2 id="tracks-title">Découvrez des extraits de l’album</h2>
         </div>
 
         <ol className="track-list">

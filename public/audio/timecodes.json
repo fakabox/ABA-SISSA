@@ -1,0 +1,123 @@
+[
+  {
+    "number": 1,
+    "title": "Miranda",
+    "source": "01 - Aba Sissa - Miranda.mp3",
+    "file": "01-miranda.m4a",
+    "start_seconds": 79.0,
+    "end_seconds": 109.0,
+    "duration": 162.12,
+    "repetition_score": 0.7065,
+    "energy_score": 0.753
+  },
+  {
+    "number": 2,
+    "title": "Mec Mature",
+    "source": "02 - Aba Sissa - Mec Mature.mp3",
+    "file": "02-mec-mature.m4a",
+    "start_seconds": 68.0,
+    "end_seconds": 98.0,
+    "duration": 151.56,
+    "repetition_score": 0.7442,
+    "energy_score": 0.6586
+  },
+  {
+    "number": 3,
+    "title": "Ta Daronne",
+    "source": "03 - Aba Sissa - Ta Daronne.mp3",
+    "file": "03-ta-daronne.m4a",
+    "start_seconds": 71.0,
+    "end_seconds": 101.0,
+    "duration": 168.2,
+    "repetition_score": 0.801,
+    "energy_score": 0.7476
+  },
+  {
+    "number": 4,
+    "title": "Ultimatum",
+    "source": "04 - Aba Sissa - Ultimatum.mp3",
+    "file": "04-ultimatum.m4a",
+    "start_seconds": 69.5,
+    "end_seconds": 99.5,
+    "duration": 146.04,
+    "repetition_score": 0.7109,
+    "energy_score": 0.7673
+  },
+  {
+    "number": 5,
+    "title": "Pas Dubaï",
+    "source": "05 - Aba Sissa - Pas Dubaï.mp3",
+    "file": "05-pas-dubai.m4a",
+    "start_seconds": 97.5,
+    "end_seconds": 127.5,
+    "duration": 171.44,
+    "repetition_score": 0.7172,
+    "energy_score": 0.7614
+  },
+  {
+    "number": 6,
+    "title": "Problématique",
+    "source": "06 - Aba Sissa - Problématique.mp3",
+    "file": "06-problematique.m4a",
+    "start_seconds": 86.0,
+    "end_seconds": 116.0,
+    "duration": 159.4,
+    "repetition_score": 0.7679,
+    "energy_score": 0.6889
+  },
+  {
+    "number": 7,
+    "title": "Mon CV",
+    "source": "07 - Aba Sissa - Mon CV.mp3",
+    "file": "07-mon-cv.m4a",
+    "start_seconds": 57.5,
+    "end_seconds": 87.5,
+    "duration": 151.2,
+    "repetition_score": 0.7696,
+    "energy_score": 0.6204
+  },
+  {
+    "number": 8,
+    "title": "Chut",
+    "source": "08 - Aba Sissa - Chut !.mp3",
+    "file": "08-chut.m4a",
+    "start_seconds": 89.0,
+    "end_seconds": 119.0,
+    "duration": 130.44,
+    "repetition_score": 0.7332,
+    "energy_score": 0.7388
+  },
+  {
+    "number": 9,
+    "title": "Je Freeze",
+    "source": "09 - Aba Sissa - Je Freeze.mp3",
+    "file": "09-je-freeze.m4a",
+    "start_seconds": 65.0,
+    "end_seconds": 95.0,
+    "duration": 143.28,
+    "repetition_score": 0.7051,
+    "energy_score": 0.7293
+  },
+  {
+    "number": 10,
+    "title": "Dancefloor",
+    "source": "10 - Aba Sissa - Dancefloor.mp3",
+    "file": "10-dancefloor.m4a",
+    "start_seconds": 66.5,
+    "end_seconds": 96.5,
+    "duration": 143.96,
+    "repetition_score": 0.7092,
+    "energy_score": 0.7478
+  },
+  {
+    "number": 11,
+    "title": "La Clé Tourne",
+    "source": "11 - Aba Sissa - La Clé Tourne.mp3",
+    "file": "11-la-cle-tourne.m4a",
+    "start_seconds": 83.5,
+    "end_seconds": 113.5,
+    "duration": 166.24,
+    "repetition_score": 0.7525,
+    "energy_score": 0.6035
+  }
+]
