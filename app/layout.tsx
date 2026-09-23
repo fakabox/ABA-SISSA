@@ -7,26 +7,26 @@ const publicUrl = "https://fakabox.github.io/ABA-SISSA/";
 export const metadata: Metadata = {
   metadataBase: new URL(publicUrl),
   title: {
-    default: "ABA SISSA — CHUT ! & SHINE",
+    default: "ABA SISSA — SHINE & CHUT !",
     template: "%s — ABA SISSA",
   },
-  description: "Les albums CHUT ! et SHINE d’ABA SISSA, les plateformes d’écoute et les extraits.",
+  description: "Les albums SHINE et CHUT ! d’ABA SISSA, les plateformes d’écoute et tous les extraits.",
   icons: {
-    icon: `${basePath}/chut-album-cover.jpg`,
-    shortcut: `${basePath}/chut-album-cover.jpg`,
+    icon: `${basePath}/shine-album-cover.jpg`,
+    shortcut: `${basePath}/shine-album-cover.jpg`,
   },
   openGraph: {
     type: "music.album",
-    title: "ABA SISSA — CHUT ! & SHINE",
-    description: "Écoutez les albums CHUT ! et SHINE et découvrez l’univers d’ABA SISSA.",
+    title: "ABA SISSA — SHINE & CHUT !",
+    description: "Écoutez les albums SHINE et CHUT ! et découvrez l’univers d’ABA SISSA.",
     url: publicUrl,
-    images: [`${publicUrl}og.png`],
+    images: [`${publicUrl}shine-album-cover.jpg`],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ABA SISSA — CHUT ! & SHINE",
-    description: "Écoutez les albums CHUT ! et SHINE et découvrez l’univers d’ABA SISSA.",
-    images: [`${publicUrl}og.png`],
+    title: "ABA SISSA — SHINE & CHUT !",
+    description: "Écoutez les albums SHINE et CHUT ! et découvrez l’univers d’ABA SISSA.",
+    images: [`${publicUrl}shine-album-cover.jpg`],
   },
 };
 

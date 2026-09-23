@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { AlbumPage } from "./AlbumPage";
+import { HomePage } from "./HomePage";
 
 export const metadata: Metadata = {
-  title: "CHUT ! & SHINE — ABA SISSA",
+  title: "ABA SISSA — SHINE & CHUT !",
   description:
-    "Écoutez CHUT ! et SHINE, les albums d’ABA SISSA, et découvrez les extraits disponibles.",
+    "Retrouvez les albums SHINE et CHUT ! d’ABA SISSA, les liens d’écoute et tous les extraits.",
 };
 
 export default function Home() {
-  return <AlbumPage />;
+  return <HomePage />;
 }
