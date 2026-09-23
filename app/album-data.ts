@@ -16,7 +16,7 @@ export const assetPath = (path: string) =>
 // MISE À JOUR FACILE
 // - Collez les nouveaux liens de streaming à la place de null.
 // - Placez les extraits dans public/audio/ puis renseignez leur chemin.
-// - Modifiez nextAlbum lorsque le prochain projet est prêt.
+// - Modifiez latestAlbum lorsque le prochain projet est disponible.
 export const album = {
   artist: "ABA SISSA",
   title: "CHUT !",
@@ -66,10 +66,43 @@ export const album = {
     { number: 10, title: "Dancefloor", preview: assetPath("/audio/10-dancefloor.m4a") },
     { number: 11, title: "La Clé Tourne", preview: assetPath("/audio/11-la-cle-tourne.m4a") },
   ] satisfies Track[],
-  nextAlbum: {
-    title: "Nouvelle Era",
-    trackCount: 15,
-    label: "Prochain album",
-    status: "En préparation",
+  latestAlbum: {
+    title: "SHINE",
+    trackCount: 14,
+    releaseLabel: "Disponible maintenant",
+    releaseDate: "18 septembre 2026",
+    cover: assetPath("/shine-album-cover.jpg"),
+    platforms: [
+      {
+        name: "Spotify",
+        icon: "spotify",
+        url: "https://open.spotify.com/album/7e9LHNJ0BFjnYgkAAosLwi",
+      },
+      {
+        name: "Apple Music",
+        icon: "applemusic",
+        url: "https://music.apple.com/fr/album/shine/6810778558",
+      },
+      {
+        name: "YouTube Music",
+        icon: "youtubemusic",
+        url: "https://music.youtube.com/browse/MPREb_xmRbXaf9A3i",
+      },
+      {
+        name: "Deezer",
+        icon: "deezer",
+        url: "https://www.deezer.com/album/1075859592",
+      },
+      {
+        name: "Amazon Music",
+        icon: "amazonmusic",
+        url: "https://music.amazon.fr/albums/B0HJFHP8VC",
+      },
+      {
+        name: "TIDAL",
+        icon: "tidal",
+        url: "https://tidal.com/album/560129527",
+      },
+    ] satisfies StreamingPlatform[],
   },
 };

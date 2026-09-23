@@ -119,7 +119,7 @@ export function AlbumPage() {
         />
         <div className="topbar">
           <a className="wordmark" href="#top">ABA <span>SISSA</span></a>
-          <a className="catalog-link" href="#prochainement">La suite <span>↓</span></a>
+          <a className="catalog-link" href="#albums">Les albums <span>↓</span></a>
         </div>
 
         <div className="hero-content">
@@ -206,42 +206,57 @@ export function AlbumPage() {
         </ol>
       </section>
 
-      <section className="future-section" id="prochainement" aria-labelledby="future-title">
+      <section className="future-section" id="albums" aria-labelledby="future-title">
         <div className="future-heading">
           <div>
-            <p className="eyebrow">La suite</p>
-            <h2 id="future-title">L’histoire continue.</h2>
+            <p className="eyebrow">Discographie</p>
+            <h2 id="future-title">Deux albums à découvrir.</h2>
           </div>
-          <p>Une passerelle élégante entre les albums : le projet actuel reste accessible et le prochain commence déjà à vivre.</p>
+          <p>SHINE, le nouvel album d’ABA SISSA, est disponible depuis le 18 septembre 2026 sur les plateformes.</p>
         </div>
 
         <div className="album-shelf">
           <article className="album-card is-current">
             <img src={album.cover} alt="" width="600" height="600" />
             <div className="album-card-copy">
-              <span>Vous écoutez</span>
+              <span>Premier album</span>
               <h3>{album.title}</h3>
               <p>11 titres · disponible</p>
             </div>
           </article>
 
-          <article className="album-card is-next">
-            <div className="future-art" aria-hidden="true">
-              <span>02</span>
-              <strong>NOUVELLE<br />ERA</strong>
-              <i>ABA SISSA</i>
-            </div>
+          <article className="album-card is-latest">
+            <img
+              src={album.latestAlbum.cover}
+              alt={`Pochette de l’album ${album.latestAlbum.title} d’${album.artist}`}
+              width="1200"
+              height="1200"
+            />
             <div className="album-card-copy">
-              <span>{album.nextAlbum.label}</span>
-              <h3>{album.nextAlbum.title}</h3>
-              <p>{album.nextAlbum.trackCount} titres · {album.nextAlbum.status.toLowerCase()}</p>
+              <span>Nouvel album</span>
+              <h3>{album.latestAlbum.title}</h3>
+              <p>{album.latestAlbum.trackCount} titres · sorti le {album.latestAlbum.releaseDate}</p>
+              <div className="album-card-platforms" aria-label={`Écouter ${album.latestAlbum.title}`}>
+                {album.latestAlbum.platforms.map((platform) => (
+                  <a
+                    href={platform.url ?? undefined}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={platform.name}
+                    aria-label={`${album.latestAlbum.title} sur ${platform.name}`}
+                  >
+                    <BrandIcon name={platform.icon} />
+                    <span>{platform.name}</span>
+                  </a>
+                ))}
+              </div>
             </div>
-            <div className="coming-pill">Prochainement</div>
+            <div className="coming-pill">Disponible</div>
           </article>
         </div>
 
         <div className="follow-banner">
-          <p>Ne manquez pas le prochain chapitre.</p>
+          <p>Suivez ABA SISSA pour découvrir les prochains chapitres.</p>
           <div>
             <a href={album.socials.instagram} target="_blank" rel="noreferrer"><BrandIcon name="instagram" />Instagram</a>
             <a href={album.socials.tiktok} target="_blank" rel="noreferrer"><BrandIcon name="tiktok" />TikTok</a>

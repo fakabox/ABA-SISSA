@@ -1,6 +1,6 @@
-# ABA SISSA — CHUT !
+# ABA SISSA — CHUT ! & SHINE
 
-Page officielle de l’album **CHUT !**, préparée pour GitHub Pages.
+Page officielle des albums **CHUT !** et **SHINE**, préparée pour GitHub Pages.
 
 Site public : https://fakabox.github.io/ABA-SISSA/
 
