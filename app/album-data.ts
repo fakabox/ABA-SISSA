@@ -85,7 +85,7 @@ export const chut: Album = {
   slug: "chut",
   artist: "ABA SISSA",
   title: "CHUT !",
-  cover: assetPath("/chut-album-cover.jpg"),
+  cover: assetPath("/chut-album-cover-v2.png"),
   releaseLabel: "Disponible maintenant",
   releaseDate: "2026",
   description: "Le premier album d’ABA SISSA, en 11 titres.",

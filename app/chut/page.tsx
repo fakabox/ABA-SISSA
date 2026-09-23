@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "CHUT ! — ABA SISSA",
     description: "Découvrez les 11 titres et les extraits de l’album CHUT ! d’ABA SISSA.",
     url: "https://fakabox.github.io/ABA-SISSA/chut/",
-    images: ["https://fakabox.github.io/ABA-SISSA/chut-album-cover.jpg"],
+    images: ["https://fakabox.github.io/ABA-SISSA/chut-album-cover-v2.png"],
   },
 };
 
